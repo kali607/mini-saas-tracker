@@ -1,0 +1,42 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Django specific
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Ignore migrations (optional — include only if you auto-generate migrations)
+**/migrations/*.py
+**/migrations/*.pyc
+!**/migrations/__init__.py
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Mac and Linux
+.DS_Store
+*.swp
+
+# Docker
+*.pid
+*.sock
+
+# Coverage / testing
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
